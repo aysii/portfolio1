@@ -27,7 +27,7 @@ const Navbar = () => {
                 </ul>
 
                 {/* Mobile menu icon */}
-                <div onClick={handleNav} className='block md:hidden text-white z-40'>
+                <div onClick={handleNav} className='block lg:hidden mr-6 text-white z-40'>
                     {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
                 </div>
 
