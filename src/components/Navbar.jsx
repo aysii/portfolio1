@@ -26,7 +26,7 @@ const Navbar = () => {
                     <li className='p-2'><NavLink to="/contact" activeClassName="text-black">Contact</NavLink></li>
                 </ul>
 
-                {/* Mobile menu icon */}
+                {/* Hamburger menu icon */}
                 <div onClick={handleNav} className='block lg:hidden mr-6 text-white z-40'>
                     {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
                 </div>
@@ -36,13 +36,12 @@ const Navbar = () => {
                     : 'fixed left-[-100%]'}>
                     <h1 className='text-3xl gray-primary color m-4'>Manabat</h1>
                     <ul className='p-8 text-4xl ml-20'>
-                        <li className='p-2'><NavLink to="/hero" activeClassName="selected">Home</NavLink></li>
-                        <li className='p-2'><NavLink to="/about" activeClassName="text-black">About</NavLink></li>
-                        <li className='p-2'><NavLink to="/portfolio" activeClassName="text-black">Portfolio</NavLink></li>
-                        <li className='p-2'><NavLink to="/contact" activeClassName="text-black">Contact</NavLink></li>
+                        <li className='p-2'><NavLink to="/hero" activeClassName="selected" onClick={handleNav}>Home</NavLink></li>
+                        <li className='p-2'><NavLink to="/about" activeClassName="text-black" onClick={handleNav}>About</NavLink></li>
+                        <li className='p-2'><NavLink to="/portfolio" activeClassName="text-black" onClick={handleNav}>Portfolio</NavLink></li>
+                        <li className='p-2'><NavLink to="/contact" activeClassName="text-black" onClick={handleNav}>Contact</NavLink></li>
                     </ul>
                 </div>
-
             </div>    
         </div>
     );
