@@ -31,7 +31,7 @@ const Hero = () => {
             </div>
             <div className="relative bottom-0 z-10 flex mx-auto justify-center">
               <img 
-                className="left-[10px] top-[-35px] sm:left-[-100px] sm:top-[-100px] absolute block w-full sm:w-auto h-auto sm:h-[500px]" 
+                className="left-[10px] top-[-35px] sm:left-[-100px] sm:top-[-100px] mx-auto rounded-3xl py-8 md:py-0 absolute block w-full sm:w-auto h-auto sm:h-[500px]" 
                 src={notebookL} alt="Notebook Large"
               />
              

@@ -18,7 +18,7 @@ const About = () => {
             </p>
           </div>
          
-          <img className="flex md:absolute mx-auto bottom-[-10%] right-[16%] w-[240px] md:w-[350px] h-auto overflow-hidden" src={mobile} alt=""/>
+          <img className="flex md:absolute mx-auto bottom-[-10%] right-[16%] w-[240px] md:w-[350px] h-auto overflow-hidden mx-auto rounded-3xl py-8 md:py-0" src={mobile} alt=""/>
         </div>
       </div>
 
