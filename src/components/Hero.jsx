@@ -5,7 +5,7 @@ import notebookL from '../assets/451441753_476859931732183_1426906919163434044_n
 
 const Hero = () => {
   return (
-    <div className="relative pt-16 pb-10 sm:pt-16 sm:pb-16 overflow-hidden h-[92vh]">
+    <div className="relative pt-16 pb-10 sm:pt-16 sm:pb-16 overflow-hidden h-[92vh] bg-[#223]/30">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative z-20">
         <div className="max-w-xl mx-auto text-center">
           <h1 className="text-4xl font-bold sm:text-6xl gray-primary-color">
@@ -28,12 +28,11 @@ const Hero = () => {
           </div>
         </div>
         
-        <div className="relative bottom-0 z-10 flex mx-auto justify-center">
+        <div className="flex justify-center mt-10 md:mt-16">
           <img 
-            className="absolute rounded-3xl py-8 md:py-0
+            className="rounded-3xl 
                       w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] xl:w-[35%] 
-                      h-auto 
-                      left-[50%] -translate-x-1/2 sm:top-[-30px] md:top-[-50px] lg:top-[-60px]"
+                      h-auto"
             src={notebookL} 
             alt="Notebook Large" 
           />
